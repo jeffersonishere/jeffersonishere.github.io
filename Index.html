@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+	<title>Wikifashion</title>
+
+	
+</head>
+<body>
+
+	<header>
+		<div class="contenedor">
+			<h2 class="logotipo">WikiFashion</h2>
+			<nav>
+				<a href="#" class="right"> <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>  <div class="header2">
+				</a>
+			   
+			  </div>
+				
+			  
+			  </div>
+			  
+				<div id="id01" class="modal">
+			  
+					<form class="modal-content animate" action="index.html" method="post">
+					  <div class="imgcontainer">
+						<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+						<img src="img/colors2.gif" class="avatar">
+					  </div>
+				  
+					  <div class="container">
+						<label for="uname"><b>Username</b></label>
+						<input type="text" placeholder="Enter Username" name="uname" required>
+				  
+						<label for="psw"><b>Password</b></label>
+						<input type="password" placeholder="Enter Password" name="psw" required>
+						  
+						<button type="submit" formaction="Index.html">Login</button>
+						
+						<label>
+						</label>
+					  </div>
+				  
+					  <div class="container" style="background-color:#ede0e0">
+						<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+						<span class="psw">Forgot <a href="#">password?</a></span>
+					  </div>
+					</form>
+				  </div>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="pelicula-principal">
+			<div class="contenedor">
+				<h3 class="titulo">Express your individuality</h3>
+				<p class="descripcion">
+					Esta página fue creada con el objetivo de que puedas aprender más sobre la moda, su importancia y su historia, además de que encuentres el estilo con el que más te identificas, definas tu propio estilo y ocupes un lugar en la sociedad y te expreses por medio de ella.
+				</p>
+			</div>
+		</div>
+
+		<div class="peliculas-recomendadas contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Modas destacadas</h3>
+				<div class="indicadores"></div>
+			</div>
+
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="Moda de los 20's.html"><img src="img/Moda1.11.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="Moda punk.html"><img src="img/Moda2.2.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="Moda gótica.html"><img src="img/Moda3.3.jpg.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="Moda cottagecore.html"><img src="img2/Cottagecorep.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="fpage.html"><img src="img/Moda5.gif" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="fpage.html"><img src="img/Moda6.gif" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="fpage.html"><img src="img/Moda7.gif" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="fpage.html"><img src="img/Moda8.gif" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="fpage.html"><img src="img/Moda9.gif" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="fpage.html"><img src="img/Moda10.gif" alt=""></a>
+						</div>
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+	</main>
+
+
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="main.js"></script>
+	
+	
+</body>
+</html>
